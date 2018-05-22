@@ -1,0 +1,180 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(27, 27, 58, 0.877);
+}
+
+h1,
+h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/*****HEADER*****/
+
+header h2 {
+    font-size: 28px;
+    text-align: left;
+    color: #ffffff;
+}
+
+nav {
+    float: right;
+    padding: 20px 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 20px 10px 0 10px;
+}
+
+#background {
+    background: url('../img/hero-background.png');
+    background-size: cover;
+    height: 600px;
+    padding: 15px 0;
+    clear: both;
+}
+
+header h1 {
+    padding: 200px 10px 5px 10px;
+    width: 600px;
+    font-size: 34px;
+    color: rgb(253, 184, 34);
+    text-transform: uppercase;
+}
+
+header p span {
+    color: rgb(253, 184, 34);
+    text-transform: uppercase;
+}
+
+header p {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+
+/*****PORTFOLIO*****/
+
+#portfolio h2 {
+    text-align: center;
+    color: rgb(253, 184, 34);
+}
+
+#portfolio h4 {
+    color: rgb(253, 184, 34);
+    font-size: 15px;
+}
+
+#portfolio img {
+    width: 400px;
+    height: 300px;
+    padding: 0px 0px 0px 50px
+}
+
+#rogue {
+    padding: 60px 0 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#jubilee {
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0px;
+}
+
+#holstee {
+    padding: 70px 0 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*****ABOUT*****/
+
+#about {
+    background: url('../img/about-me.png');
+    background-size: cover;
+    height: 500px;
+    clear: both;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about h3 {
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 25px;
+}
+
+#about p {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+
+/*****CONTACT*****/
+
+#contact h3 {
+    text-align: center;
+    color: rgb(253, 184, 34);
+    padding: 15px 20px;
+}
+
+#email p {
+    text-align: center;
+}
+
+#meet p {
+    text-align: center;
+}
+
+#contact ul {
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+#copyright {
+    clear: both;
+    font-size: 12px;
+    color: rgb(253, 184, 34);
+    text-align: center;
+}
